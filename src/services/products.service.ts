@@ -59,6 +59,7 @@ export class ProductService {
       category,
       name,
       quantity,
+      updated_at: new Date(),
     });
 
     return product;
